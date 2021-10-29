@@ -7,11 +7,11 @@ const Counter = () => {
 
 
      const valueChangeHandlerPlus = () => {
-        setCount((prevCount) => prevCount+1)
+        setCount((prevCount) => {return prevCount+1})
     }
 
     const valueChangeHandlerMinus = () => {
-        setCount((prevCount) => prevCount-1)
+        setCount((prevCount) => {return prevCount-1})
     }
 
     return (
