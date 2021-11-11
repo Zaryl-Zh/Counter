@@ -1,12 +1,16 @@
-import react from "react";
-import Counter from "./Components/Counter";
+import React from "react";
+import Comment from './Components/Comment'
+
 
 
 function App() {
+    
  
+
   return (
     <div className="App">
-   
+      
+      <Comment />
     </div>
   );
 }
